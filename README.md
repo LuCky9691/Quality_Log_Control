@@ -96,6 +96,35 @@ python app.py
 This will start your Flask server, and the application will begin logging as per the endpoints defined.
 
 ---
+### Using the Log Query CLI
+
+To use the CLI for querying logs, run:
+
+```bash
+python log_query_cli.py
+```
+
+#### Example Queries
+
+- **Find Error Logs**:
+
+  ```bash
+  python log_query_cli.py --level error
+  ```
+
+- **Search for a specific message**:
+
+  ```bash
+  python log_query_cli.py --log_string "Failed to connect"
+  ```
+
+- **Filter by date range**:
+
+  ```bash
+  python log_query_cli.py --start_time "2023-09-10T00:00:00Z" --end_time "2023-09-15T23:59:59Z"
+  ```
+
+
 
 ### Configuration
 
