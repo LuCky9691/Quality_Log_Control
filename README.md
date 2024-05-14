@@ -124,7 +124,15 @@ python log_query_cli.py
   python log_query_cli.py --start_time "2023-09-10T00:00:00Z" --end_time "2023-09-15T23:59:59Z"
   ```
 
+Automated Testing with Python (using unittest)
+unittest is a built-in Python module used to implement unit tests. It provides a rich set of tools for constructing and running tests, ensuring that your application behaves as expected. To enhance the testing capabilities for Flask applications, the Flask-Testing extension can be used.
 
+Set Up a Testing Environment
+Install Flask-Testing:
+
+This extension provides additional testing capabilities beyond what's provided by unittest. Install it using pip:
+
+pip install Flask-Testing
 
 ### Configuration
 
